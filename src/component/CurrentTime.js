@@ -19,13 +19,12 @@ const CurrentTime = () => {
     day: '2-digit',
     hour: '2-digit',
     minute: '2-digit',
-    second: '2-digit',
-    hour12: false,
+    hour12: true,
   });
 
   return (
     <div className="current-time">
-      ⏰ 현재 시간: {formattedTime}
+      {formattedTime}
     </div>
   );
 };

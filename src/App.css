@@ -150,9 +150,8 @@ body{
 }
 
 .current-time{
-  position:relative;
   font-family: 'Ownglyph_corncorn-Rg', sans-serif;
-  font-size: 40px;
-  text-align: center;
+  font-size: 25px;
+  text-align: right;
   color:lightyellow;
 }
